@@ -97,7 +97,7 @@ def chat():
     return jsonify({
         "reply": bot_reply,
         "session_id": session_id
-    })
+    })  #this the function
 
 if __name__ == "__main__":
     # Run: python app.py
